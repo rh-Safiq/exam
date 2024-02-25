@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Gallery</title>
+    <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto auto auto auto;
+          grid-template-rows: auto auto;
+          grid-gap: 10px;
+          background-color: transparent;
+          padding: 10px;
+        }
+        
+        .grid-container > div {
+          
+          text-align: center;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+
+
+        .item1{
+            background-image:url(./img/istockphoto-1623303770-612x612.jpg) ;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            .grid-container {
+          display: grid;
+          grid-template-columns: auto;
+          grid-template-rows: auto auto;
+          grid-gap: 10px;
+          background-color: transparent;
+          padding: 10px;
+        }
+
+        }
+
+
+        .overlied1:hover{
+            text-align: center;
+             color: white;
+             font-size: 0.5in;
+            
+        }
+
+
+        .item1 {
+  position: relative;
+  ;
+}
+
+
+.image {
+  display: block;
+  width: 95%;
+  height: auto;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 94%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.item1:hover .overlay {
+  opacity: 1;}
+
+.t11:hover{
+    display: none;
+}  
+
+        </style>
+</head>
+<body style="background-image: url(./img/body.webp);  background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;">
+   <h1 style="text-align: center; color: white; font-size: 0.6in;">Image Gallery</h1> 
+
+   <pre>
+
+
+
+
+    
+   </pre>
+
+   
+   
+   <div class="grid-container" style="grid-auto-flow: row;">
+     <div class="item1"> <img src="./img/d7b775a7918bd66fec48da89974a0885.jpg" style="width: 95%; height: auto;;" class="image"/> <text class="t11" style="text-align: center; color: white; ">Giving Exam</text>  <div class="overlay">Exam is Given</div> </div>
+     <div class="item1"> <img src="./img/d7b775a7918bd66fec48da89974a0885.jpg" style="width: 95%; height: auto;;" class="image"/> <text class="t11" style="text-align: center; color: white; ">Giving Exam</text>  <div class="overlay">Exam is Given</div> </div>
+     <div class="item1"> <img src="./img/d7b775a7918bd66fec48da89974a0885.jpg" style="width: 95%; height: auto;;" class="image"/> <text class="t11" style="text-align: center; color: white; ">Giving Exam</text>  <div class="overlay">Exam is Given</div> </div>
+     <div class="item1"> <img src="./img/d7b775a7918bd66fec48da89974a0885.jpg" style="width: 95%; height: auto;;" class="image"/> <text class="t11" style="text-align: center; color: white; ">Giving Exam</text>  <div class="overlay">Exam is Given</div> </div>
+     <div class="item1"> <img src="./img/d7b775a7918bd66fec48da89974a0885.jpg" style="width: 95%; height: auto;;" class="image"/> <text class="t11" style="text-align: center; color: white; ">Giving Exam</text>  <div class="overlay">Exam is Given</div> </div>
+     <div class="item1"> <img src="./img/d7b775a7918bd66fec48da89974a0885.jpg" style="width: 95%; height: auto;;" class="image"/> <text class="t11" style="text-align: center; color: white; ">Giving Exam</text>  <div class="overlay">Exam is Given</div> </div>
+     <div class="item1"> <img src="./img/d7b775a7918bd66fec48da89974a0885.jpg" style="width: 95%; height: auto;;" class="image"/> <text class="t11" style="text-align: center; color: white; ">Giving Exam</text>  <div class="overlay">Exam is Given</div> </div>
+     <div class="item1"> <img src="./img/d7b775a7918bd66fec48da89974a0885.jpg" style="width: 95%; height: auto;;" class="image"/> <text class="t11" style="text-align: center; color: white; ">Giving Exam</text>  <div class="overlay">Exam is Given</div> </div>
+     <div class="item1"> <img src="./img/d7b775a7918bd66fec48da89974a0885.jpg" style="width: 95%; height: auto;;" class="image"/> <text class="t11" style="text-align: center; color: white; ">Giving Exam</text>  <div class="overlay">Exam is Given</div> </div>
+     <div class="item1"> <img src="./img/d7b775a7918bd66fec48da89974a0885.jpg" style="width: 95%; height: auto;;" class="image"/> <text class="t11" style="text-align: center; color: white; ">Giving Exam</text>  <div class="overlay">Exam is Given</div></div>
+   </div>
+
+
+
+   <pre>
+
+
+
+
+    
+   </pre>
+
+</body>
+</html>
